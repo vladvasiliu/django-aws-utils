@@ -3,3 +3,7 @@
 black
 ipython
 pip-tools
+pre-commit
+sphinx
+sphinx_rtd_theme
+sphinx-autodoc-typehints
