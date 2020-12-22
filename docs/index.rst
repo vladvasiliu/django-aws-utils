@@ -10,8 +10,7 @@ Welcome to Django AWS Utils's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   source/modules
-
+   autoapi/index
 
 Indices and tables
 ==================
