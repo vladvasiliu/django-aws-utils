@@ -5,4 +5,9 @@ target-version = ['py38']
 [tool.setuptools_scm]
 
 [build-system]
-requires = ["setuptools>=51", "wheel", "setuptools_scm[toml]>=5.0.1"]
+requires = [
+    "setuptools>=51",
+    "wheel",
+    "setuptools_scm[toml]>=5.0.1",
+    "git+https://github.com/bitprophet/releases/#egg=releases",
+]

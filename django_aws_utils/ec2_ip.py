@@ -5,14 +5,16 @@ from django.core.exceptions import ImproperlyConfigured
 def get_ec2_ip() -> str:
     """Get the machine's IP as used by the load balancer.
 
-    The result should be added to ALLOWED_HOSTS to prevent Django from returning HTTP500. For example:
+    The result should be added to ALLOWED_HOSTS to prevent Django from returning HTTP500.
+    For example, in your `settings.py`:
 
-    ```
+
+    .. code-block::
+
         ALLOWED_HOSTS = [
             get_ec2_ip(),
             "app.example.com"
         ]
-    ```
 
 
     For the time being, this only supports the Metadata Version 1.
